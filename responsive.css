@@ -1,0 +1,151 @@
+/* パソコン用 */
+@media only screen and (min-width: 821px) {
+    .desktop-hidden {
+        display: none;
+    }
+}
+
+/* タブレット用 */
+@media only screen and (max-width: 820px) {
+    .top-wrapper {
+        height: fit-content;
+    }
+
+    .top-wrapper h1 {
+        font-size: 35px;
+        line-height: 160%;
+    }
+
+    header .wf-nicomoji {
+        font-size: 30px;
+    }
+
+    .header-icon {
+        width: 40px;
+        vertical-align: bottom;
+    }
+
+    .heading h1 {
+        font-size: 22px;
+    }
+
+    .about-wrapper {
+        border-radius: 0;
+    }
+
+    .profile p {
+        font-size: 15px;
+    }
+
+    .text-contents {
+        font-size: 13px;
+    }
+
+    .program-wrapper {
+        border-radius: 0;
+    }
+
+    .program-contents p {
+        font-size: 13px;
+    }
+
+    .contact-contents p {
+        font-size: 13px;
+    }
+}
+
+/* スマートフォン用 */
+@media screen and (max-width: 540px) {
+    .about-wrapper {
+        text-align: center;
+        border-radius: 0;
+    }
+
+    .profile img {
+        display: block;
+        float: none;
+        margin: 0 auto;
+        width: 50%;
+        padding-right: 0;
+    }
+
+    .profile p {
+        font-size: 13px;
+        width: 80%;
+        display: inline-block;
+        text-align: left;
+    }
+    
+    .top-wrapper {
+        height: fit-content;
+    }
+
+    .top-wrapper h1 {
+        font-size: 25px;
+        line-height: 200%;
+    }
+
+    header .wf-nicomoji {
+        font-size: 20px;
+    }
+
+    .header-icon {
+        width: 30px;
+        vertical-align: bottom;
+    }
+    
+    .header-list a {
+        font-size: 13px;
+    }
+
+    .heading h1 {
+        font-size: 18px;
+    }
+
+    .profile p {
+        font-size: 13px;
+    }
+
+    .service {
+        width: 100%;
+    }
+
+    .service h3 {
+        font-size: 15px;
+    }
+
+    .text-contents {
+        font-size: 13px;
+    }
+
+    .program-wrapper {
+        border-radius: 0;
+    }
+
+    .program-contents h3 {
+        font-size: 15px;
+    }
+
+    .program-contents p {
+        font-size: 13px;
+    }
+
+    .contact-contents h3 {
+        font-size: 15px;
+    }
+
+    .contact-contents p {
+        font-size: 13px;
+        width: 80%;
+    }
+
+    .btn {
+        width: 80%;
+        font-size: 13px;
+    }
+
+    .coconala {
+        margin-bottom: 10px;
+        margin-right: 0px;
+    }
+}
